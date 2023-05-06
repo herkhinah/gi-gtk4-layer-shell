@@ -1,0 +1,12 @@
+packages:
+- '.'
+resolver: lts-20.19
+
+extra-deps:
+- gi-gdk-4.0.7@sha256:e1915be39e2eebaf445584986dea7b750aef57c00894d1a218a54811da27b381,9025
+- gi-gtk-4.0.8@sha256:6011c2d7880c6f9b1a319a593db6b76e5175b3f020fc4b3ca86707ee70c3a1d8,35759
+- gi-gsk-4.0.7@sha256:1c96f0d0fdc39b1dfa3314cb00e57cb39931bd7f1a125fb0890435fcae624952,7393
+
+nix:
+  enable: true
+  shell-file: shell.nix
